@@ -1,0 +1,25 @@
+version: "3.2"
+
+services:
+  memotion_app:
+    image: python-poetry:3.9
+    build:
+      context: backend/.devcontainer
+      dockerfile: Dockerfile
+    container_name: memotion_app
+    working_dir: /usr/src
+    tty: true
+    user: "1000"
+    volumes:
+      - type: bind
+        source: ./backend
+        target: /usr/src/backend
+      - type: bind
+        source: ./.git
+        target: /usr/src/.git
+      - type: bind
+        source: ./.vscode
+        target: /usr/src/.vscode
+      - type: bind
+        source: ./.commit_template
+        target: /usr/src/.commit_template
