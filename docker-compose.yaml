@@ -2,14 +2,14 @@ version: "3.2"
 
 services:
   memotion_app:
-    image: python-poetry:3.9
+    image: memotion-python-poetry:3.9
     build:
       context: backend/.devcontainer
       dockerfile: Dockerfile
     container_name: memotion_app
     working_dir: /usr/src
     tty: true
-    user: "1000"
+    user: memotion_app
     volumes:
       - type: bind
         source: ./backend

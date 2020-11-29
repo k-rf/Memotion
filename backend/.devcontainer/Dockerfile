@@ -1,6 +1,6 @@
 FROM python:3.9
 
-ENV USER memotion
+ENV USER memotion_app
 ENV TZ Asia/Tokyo
 
 SHELL [ "/bin/bash", "-c" ]
