@@ -1,23 +1,23 @@
 {
-  "name": "Memotion App",
-  "dockerComposeFile": "../../docker-compose.yaml",
-  "service": "memotion_app",
-  "workspaceFolder": "/usr/src",
-  "mounts": [],
-  "postStartCommand": "bash backend/.devcontainer/postStartCommand.sh",
-  "settings": {
-    "python.pythonPath": "backend/.venv/bin/python",
-    "python.formatting.provider": "black"
-  },
-  "extensions": [
-    "donjayamanne.githistory",
-    "eamodio.gitlens",
-    "gruntfuggly.todo-tree",
-    "littlefoxteam.vscode-python-test-adapter",
-    "mhutchie.git-graph",
-    "ms-python.python",
-    "ms-python.vscode-pylance",
-    "ryu1kn.partial-diff",
-    "streetsidesoftware.code-spell-checker",
-  ]
+    "name": "Memotion App",
+    "dockerComposeFile": "../../docker-compose.yaml",
+    "service": "memotion_app",
+    "workspaceFolder": "/usr/src",
+    "mounts": [],
+    "postStartCommand": "bash backend/.devcontainer/postStartCommand.sh",
+    "settings": {
+        "python.pythonPath": "backend/.venv/bin/python",
+        "python.formatting.provider": "black"
+    },
+    "extensions": [
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "gruntfuggly.todo-tree",
+        "littlefoxteam.vscode-python-test-adapter",
+        "mhutchie.git-graph",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ryu1kn.partial-diff",
+        "streetsidesoftware.code-spell-checker",
+    ]
 }
