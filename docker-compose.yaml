@@ -20,6 +20,23 @@ services:
       - type: bind
         source: ./.vscode
         target: /usr/src/.vscode
+
+  memotion_web:
+    image: memotion-node:14
+    build:
+      context: frontend/.devcontainer
+      dockerfile: Dockerfile
+    container_name: memotion_web
+    working_dir: /usr/src
+    tty: true
+    user: memotion_web
+    volumes:
       - type: bind
-        source: ./.commit_template
-        target: /usr/src/.commit_template
+        source: ./frontend
+        target: /usr/src/frontend
+      - type: bind
+        source: ./.git
+        target: /usr/src/.git
+      - type: bind
+        source: ./.vscode
+        target: /usr/src/.vscode

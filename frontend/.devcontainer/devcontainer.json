@@ -1,0 +1,17 @@
+{
+  "name": "Memotion Web",
+  "dockerComposeFile": "../../docker-compose.yaml",
+  "service": "memotion_web",
+  "workspaceFolder": "/usr/src",
+  "mounts": [],
+  "postStartCommand": "bash frontend/.devcontainer/postStartCommand.sh",
+  "settings": {},
+  "extensions": [
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "gruntfuggly.todo-tree",
+    "mhutchie.git-graph",
+    "ryu1kn.partial-diff",
+    "streetsidesoftware.code-spell-checker",
+  ]
+}
