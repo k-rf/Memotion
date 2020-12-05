@@ -11,15 +11,7 @@ services:
     tty: true
     user: memotion_app
     volumes:
-      - type: bind
-        source: ./backend
-        target: /usr/src/backend
-      - type: bind
-        source: ./.git
-        target: /usr/src/.git
-      - type: bind
-        source: ./.vscode
-        target: /usr/src/.vscode
+      - .:/usr/src:cached
 
   memotion_web:
     image: memotion-node:14
@@ -31,12 +23,4 @@ services:
     tty: true
     user: memotion_web
     volumes:
-      - type: bind
-        source: ./frontend
-        target: /usr/src/frontend
-      - type: bind
-        source: ./.git
-        target: /usr/src/.git
-      - type: bind
-        source: ./.vscode
-        target: /usr/src/.vscode
+      - .:/usr/src:cached
