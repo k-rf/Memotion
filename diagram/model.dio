@@ -1,0 +1,186 @@
+<mxfile host="65bd71144e" modified="2020-12-27T10:48:54.643Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" version="13.10.0" etag="NR-jRDiiNDXRwss8nT0i" type="embed">
+    <diagram id="uW2sKwRUg2ZLcCE_XvMo" name="Page-1">
+        <mxGraphModel dx="1223" dy="1010" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="73" value="User" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;fontFamily=Courier New;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="810" width="400" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="Memo" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;fontFamily=Courier New;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="250" width="600" height="410" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="40" width="360" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Model" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Rule" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fontSize=12;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=12;curved=1;" edge="1" parent="1" source="4" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=12;curved=1;" edge="1" parent="1" source="4" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="280" y="350"/>
+                            <mxPoint x="280" y="430"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="83" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;startSize=12;sourcePerimeterSpacing=0;endArrow=classic;endFill=1;targetPerimeterSpacing=0;fontFamily=Courier New;fontSize=12;" edge="1" parent="1" source="4" target="82">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="270" y="350"/>
+                            <mxPoint x="270" y="510"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="87" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;startSize=12;sourcePerimeterSpacing=0;endArrow=classic;endFill=1;targetPerimeterSpacing=0;fontFamily=Courier New;fontSize=12;" edge="1" parent="1" source="4" target="86">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="260" y="350"/>
+                            <mxPoint x="260" y="590"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="Memo" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;startSize=12;sourcePerimeterSpacing=0;endArrow=none;endFill=0;targetPerimeterSpacing=0;fontFamily=Courier New;fontSize=12;" edge="1" parent="1" source="10" target="74">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Memory" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;fontFamily=Courier New;fontSize=12;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="11" target="48">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Emotion" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="400" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontFamily=Courier New;fontSize=12;targetPerimeterSpacing=0;sourcePerimeterSpacing=0;startSize=12;" edge="1" parent="1" source="14" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;startSize=12;sourcePerimeterSpacing=0;endArrow=classic;endFill=1;targetPerimeterSpacing=0;fontFamily=Courier New;fontSize=12;" edge="1" parent="1" source="14" target="76">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;startSize=12;sourcePerimeterSpacing=0;endArrow=classic;endFill=1;targetPerimeterSpacing=0;fontFamily=Courier New;fontSize=12;" edge="1" parent="1" source="14" target="77">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="280" y="910"/>
+                            <mxPoint x="280" y="990"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="User" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="880" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=12;startArrow=classic;startFill=1;shape=flexArrow;" edge="1" parent="1" source="15" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="喜び&lt;br&gt;Joy" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="960" y="720" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="怒り&lt;br&gt;Anger" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="880" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="予期&lt;br&gt;Anticipation" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="960" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;fontFamily=Courier New;fontSize=12;" edge="1" parent="1" source="18" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="恐れ&lt;br&gt;Fear" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="960" y="880" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Positive" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="1040" y="240" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Negative" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="1360" y="240" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;fontFamily=Courier New;fontSize=12;" edge="1" parent="1" source="25" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="信頼&lt;br&gt;Trust" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="960" y="800" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;fontFamily=Courier New;fontSize=12;" edge="1" parent="1" source="26" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="驚き&lt;br&gt;Surprise" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="960" y="960" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="悲しみ&lt;br&gt;Sadness" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="720" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="嫌悪&lt;br&gt;Disgust" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="800" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="喜び&lt;br&gt;Joy" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1040" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="怒り&lt;br&gt;Anger" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1360" y="560" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="予期&lt;br&gt;Anticipation" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="400" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="恐れ&lt;br&gt;Fear" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1360" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="信頼&lt;br&gt;Trust" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1040" y="400" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="驚き&lt;br&gt;Surprise" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="悲しみ&lt;br&gt;Sadness" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="1360" y="400" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="嫌悪&lt;br&gt;Disgust" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1360" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Neutral" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="240" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="Emotion Type" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="対立関係にある感情は同時に記録できない" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fontSize=12;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="400" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="Opposition" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="640" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="空白に該当するものオンリーはダメ" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fontSize=12;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="Name" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="880" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="Email" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="960" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="Emotion Category" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="240" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;startSize=12;sourcePerimeterSpacing=0;endArrow=none;endFill=0;targetPerimeterSpacing=0;fontFamily=Courier New;fontSize=12;dashed=1;" edge="1" parent="1" source="82" target="84">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="Happening Date" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="書いている日より後はダメ" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fontSize=12;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="Writing Date" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="560" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

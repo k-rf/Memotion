@@ -1,0 +1,70 @@
+<mxfile host="65bd71144e" modified="2020-12-27T10:53:23.923Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" version="13.10.0" etag="KNkIkMm48CP4y66CZ-FS" type="embed">
+    <diagram id="W5q6IPy1foX0BVNvQi3R" name="Page-1">
+        <mxGraphModel dx="864" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="40" width="640" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="ドメイン&lt;br&gt;イベント" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="80" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="コマンド" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="80" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="集約" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="80" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="方針&lt;br&gt;（反応）&lt;br&gt;（ポリシー）" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="80" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="懸念事項" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="80" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="メモが作成された" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="280" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="ユーザが登録された" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="880" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="メモが修正された" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="440" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="メモが削除された" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="600" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="記憶と感情を修正する" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="440" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="メモを削除する" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="600" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="記憶と感情を書き起こす" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="280" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="メモを書いてから 24 時間以内なら" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="500" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="メモを書いてから 24 時間以内なら" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="660" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="メモ集約" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="280" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="ユーザ集約" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="880" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="ユーザ登録をする" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="880" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="メモ集約" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="440" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="メモ集約" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="600" width="80" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
