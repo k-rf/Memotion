@@ -6,13 +6,14 @@
     "settings": {
         "python.formatting.provider": "black",
         "python.languageServer": "Pylance",
-        "python.formatting.blackPath": ".venv/bin/black",
-        "python.linting.flake8Path": ".venv/bin/flake8",
-        "python.pythonPath": ".venv/bin/python",
-        "python.sortImports.path": ".venv/bin/isort",
-        "python.testing.pytestPath": ".venv/bin/pytest",
-        "python.venvPath": ".venv",
-        "python.testing.cwd": ".",
+        "python.formatting.blackPath": "${workspaceFolder}/.venv/bin/black",
+        "python.linting.flake8Path": "${workspaceFolder}/.venv/bin/flake8",
+        "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
+        "python.sortImports.path": "${workspaceFolder}/.venv/bin/isort",
+        "python.testing.pytestPath": "${workspaceFolder}/.venv/bin/pytest",
+        "python.venvPath": "${workspaceFolder}/.venv",
+        "python.testing.cwd": "${workspaceFolder}",
+        "python.analysis.typeCheckingMode": "basic"
     },
     "extensions": [
         "alefragnani.bookmarks",

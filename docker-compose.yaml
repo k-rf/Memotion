@@ -12,7 +12,7 @@ services:
     user: memotion_app
     volumes:
       - .:/usr/src:cached
-      - ./.vscode/cspell.json:/usr/src/.vscode/cspell.json:cached
+      - ./.vscode/cspell.json:/usr/src/backend/.vscode/cspell.json:cached
 
   memotion_web:
     image: memotion-node:14
@@ -25,4 +25,4 @@ services:
     user: memotion_web
     volumes:
       - .:/usr/src:cached
-      - ./.vscode/cspell.json:/usr/src/.vscode/cspell.json:cached
+      - ./.vscode/cspell.json:/usr/src/frontend/.vscode/cspell.json:cached
