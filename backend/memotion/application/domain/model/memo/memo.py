@@ -11,6 +11,7 @@ from .writing_date import WritingDate
 @dataclass
 class Memo:
     __REWRITABLE_LIMIT = 24
+    __DELETABLE_LIMIT = 24
 
     memo_id: MemoId
     memory: Memory
@@ -23,7 +24,7 @@ class Memo:
             raise ValueError("Invalid date order.")
 
     @classmethod
-    def instance(
+    def create(
         cls,
         memo_id: MemoId,
         memory: Memory,
@@ -39,5 +40,11 @@ class Memo:
             writing_data,
         )
 
+    def __is_over_limit(self, target: DateTime, limit: int):
+        return target < self.writing_date.add_hours(limit)
+
     def is_rewritable(self, target: DateTime):
-        return target < self.writing_date.add_hours(self.__REWRITABLE_LIMIT)
+        return self.__is_over_limit(target, self.__REWRITABLE_LIMIT)
+
+    def is_deletable(self, target: DateTime):
+        return self.__is_over_limit(target, self.__DELETABLE_LIMIT)
