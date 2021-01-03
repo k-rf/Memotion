@@ -11,6 +11,7 @@ services:
     tty: true
     user: memotion_app
     volumes:
+      - $HOME/.ssh:/home/memotion_app/.ssh
       - .:/usr/src:cached
       - ./.vscode/cspell.json:/usr/src/backend/.vscode/cspell.json:cached
 
@@ -24,5 +25,6 @@ services:
     tty: true
     user: memotion_web
     volumes:
+      - $HOME/.ssh:/home/memotion_web/.ssh
       - .:/usr/src:cached
       - ./.vscode/cspell.json:/usr/src/frontend/.vscode/cspell.json:cached
