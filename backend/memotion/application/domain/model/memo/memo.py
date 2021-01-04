@@ -40,6 +40,9 @@ class Memo:
             writing_data,
         )
 
+    def revise_memory(self, memory: Memory):
+        self.memory = memory
+
     def __is_over_limit(self, target: DateTime, limit: int):
         return target < self.writing_date.add_hours(limit)
 

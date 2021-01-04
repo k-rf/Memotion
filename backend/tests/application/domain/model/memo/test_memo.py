@@ -8,9 +8,11 @@ from memotion.application.domain.model.memo.memo_id import MemoId
 from memotion.application.domain.model.memo.memory.memory import Memory
 from memotion.application.domain.model.memo.writing_date import WritingDate
 
-memo_id = MemoId(100)
-memory = Memory("Hello World")
-emotions = EmotionSet({Joy()})
+default_memo_id = MemoId(100)
+default_memory = Memory("Hello World")
+default_emotions = EmotionSet({Joy()})
+default_happening_date = HappeningDate(pendulum.datetime(2021, 1, 1))
+default_writing_date = WritingDate(pendulum.datetime(2021, 1, 2))
 
 
 class Testメモを作成する:
@@ -19,9 +21,9 @@ class Testメモを作成する:
         writing_date = WritingDate(pendulum.datetime(2021, 1, 3))
 
         Memo.create(
-            memo_id,
-            memory,
-            emotions,
+            default_memo_id,
+            default_memory,
+            default_emotions,
             happening_date,
             writing_date,
         )
@@ -31,9 +33,9 @@ class Testメモを作成する:
         writing_date = WritingDate(pendulum.datetime(2021, 1, 1))
 
         Memo.create(
-            memo_id,
-            memory,
-            emotions,
+            default_memo_id,
+            default_memory,
+            default_emotions,
             happening_date,
             writing_date,
         )
@@ -44,12 +46,28 @@ class Testメモを作成する:
 
         with pytest.raises(ValueError):
             Memo.create(
-                memo_id,
-                memory,
-                emotions,
+                default_memo_id,
+                default_memory,
+                default_emotions,
                 happening_date,
                 writing_date,
             )
+
+
+class Test記憶を修正する:
+    def test_記憶を修正する(self):
+        memo = Memo.create(
+            default_memo_id,
+            default_memory,
+            default_emotions,
+            default_happening_date,
+            default_writing_date,
+        )
+
+        revised_memory = Memory("Good Night World")
+        memo.revise_memory(revised_memory)
+
+        assert memo.memory == revised_memory
 
 
 class Testメモを編集できるか:
@@ -58,9 +76,9 @@ class Testメモを編集できるか:
         writing_date = WritingDate(pendulum.datetime(2021, 1, 2, 12, 0, 0))
 
         memo = Memo.create(
-            memo_id,
-            memory,
-            emotions,
+            default_memo_id,
+            default_memory,
+            default_emotions,
             happening_date,
             writing_date,
         )
@@ -74,9 +92,9 @@ class Testメモを編集できるか:
         writing_date = WritingDate(pendulum.datetime(2021, 1, 2, 12, 0, 0))
 
         memo = Memo.create(
-            memo_id,
-            memory,
-            emotions,
+            default_memo_id,
+            default_memory,
+            default_emotions,
             happening_date,
             writing_date,
         )
@@ -92,9 +110,9 @@ class Testメモを削除できるか:
         writing_date = WritingDate(pendulum.datetime(2021, 1, 2, 12, 0, 0))
 
         memo = Memo.create(
-            memo_id,
-            memory,
-            emotions,
+            default_memo_id,
+            default_memory,
+            default_emotions,
             happening_date,
             writing_date,
         )
@@ -108,9 +126,9 @@ class Testメモを削除できるか:
         writing_date = WritingDate(pendulum.datetime(2021, 1, 2, 12, 0, 0))
 
         memo = Memo.create(
-            memo_id,
-            memory,
-            emotions,
+            default_memo_id,
+            default_memory,
+            default_emotions,
             happening_date,
             writing_date,
         )
