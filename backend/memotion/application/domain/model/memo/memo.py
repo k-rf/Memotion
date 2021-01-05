@@ -43,6 +43,9 @@ class Memo:
     def revise_memory(self, memory: Memory):
         self.memory = memory
 
+    def revise_emotions(self, emotions: EmotionSet):
+        self.emotions = emotions
+
     def __is_over_limit(self, target: DateTime, limit: int):
         return target < self.writing_date.add_hours(limit)
 

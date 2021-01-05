@@ -1,6 +1,6 @@
 import pendulum
 import pytest
-from memotion.application.domain.model.memo.emotion.emotion import Joy
+from memotion.application.domain.model.memo.emotion.emotion import Anger, Joy, Sadness
 from memotion.application.domain.model.memo.emotion.emotion_set import EmotionSet
 from memotion.application.domain.model.memo.happening_date import HappeningDate
 from memotion.application.domain.model.memo.memo import Memo
@@ -68,6 +68,22 @@ class Test記憶を修正する:
         memo.revise_memory(revised_memory)
 
         assert memo.memory == revised_memory
+
+
+class Test感情を修正する:
+    def test_感情を修正する(self):
+        memo = Memo.create(
+            default_memo_id,
+            default_memory,
+            default_emotions,
+            default_happening_date,
+            default_writing_date,
+        )
+
+        revised_emotions = EmotionSet({Sadness(), Anger()})
+        memo.revise_emotions(revised_emotions)
+
+        assert memo.emotions == revised_emotions
 
 
 class Testメモを編集できるか:
