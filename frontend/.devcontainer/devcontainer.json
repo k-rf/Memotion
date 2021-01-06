@@ -3,7 +3,9 @@
     "dockerComposeFile": "../../docker-compose.yaml",
     "service": "memotion_web",
     "workspaceFolder": "/usr/src/frontend",
-    "settings": {},
+    "settings": {
+        "cSpell.workspaceRootPath": "${workspaceFolder}/../.vscode",
+    },
     "extensions": [
         "donjayamanne.githistory",
         "eamodio.gitlens",

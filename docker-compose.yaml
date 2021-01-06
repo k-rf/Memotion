@@ -13,7 +13,6 @@ services:
     volumes:
       - $HOME/.ssh:/home/memotion_app/.ssh
       - .:/usr/src:cached
-      - ./.vscode/cspell.json:/usr/src/backend/.vscode/cspell.json:cached
 
   memotion_web:
     image: memotion-node:14
@@ -27,4 +26,3 @@ services:
     volumes:
       - $HOME/.ssh:/home/memotion_web/.ssh
       - .:/usr/src:cached
-      - ./.vscode/cspell.json:/usr/src/frontend/.vscode/cspell.json:cached

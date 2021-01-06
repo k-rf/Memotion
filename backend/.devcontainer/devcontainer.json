@@ -4,6 +4,7 @@
     "service": "memotion_app",
     "workspaceFolder": "/usr/src/backend",
     "settings": {
+        "cSpell.workspaceRootPath": "${workspaceFolder}/../.vscode",
         "python.formatting.provider": "black",
         "python.languageServer": "Pylance",
         "python.formatting.blackPath": "${workspaceFolder}/.venv/bin/black",
@@ -13,7 +14,7 @@
         "python.testing.pytestPath": "${workspaceFolder}/.venv/bin/pytest",
         "python.venvPath": "${workspaceFolder}/.venv",
         "python.testing.cwd": "${workspaceFolder}",
-        "python.analysis.typeCheckingMode": "basic"
+        "python.analysis.typeCheckingMode": "basic",
     },
     "extensions": [
         "alefragnani.bookmarks",
